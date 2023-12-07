@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script>
+            function subscribe() {
+            var email = document.getElementById('email').value;
+            if(email){
+                alert("Thank you for subscribing with " + email);
+            } else {
+                alert("Please enter an email address.");
+            }
+            }
+    </script>
+</head>
+<body> 
+    <header class="main-header">
+
+    <div>
+        <img src="MARCADAGUA3.png" alt="image1" class="header-logo">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+<main>
+    <div class="flex-container">
+        
+        <div class="under-header-title">
+            <h1>Best Housing & Accomodation services for your family</h1>
+            <img src="toronto-house3.jpg" alt="toronto-house3" class="toronto-house3">
+
+            <div class="newsletter">
+                <input type="email" id="email" placeholder="Subscribe to our newsletter">
+                <button onclick="subscribe()">subscribe</button>
+            </div>
+        </div>
+
+        <div class="column1">
+                <img src="30871136025_b131957922_b.jpg" alt="image2" class="house-image1">
+                <p class="text-image2">
+                    Welcome to Home for Real: Your Trusted Partner for Toronto Real Estate
+                    Discover your dream home in Toronto with the help of our experienced team. We specialize in finding the perfect houses for our clients, and we're here to make your real estate journey seamless and stress-free.
+                </p>
+        </div>
+        <div class="column2">
+            <img src="toronto-houses-1-6157792-1668720440725.jpg" alt="image3" class="house-image2">
+            <p class="text-image3">
+                Explore Toronto's Finest Homes: Browse through a curated selection of Toronto's most desirable properties. Whether you're looking for a cozy family home, a luxury condominium, or an investment opportunity, we have the listings to suit your needs.
+            </p>
+        </div>
+
+
+    </div>
+
+</main>
+    
+<footer class="footer">
+    <a href="https://www.instagram.com/homeforreal_ca/" target="_blank">
+        <img src="insta-logo2.webp" alt="insta-logo" class="insta-logo">
+    </a>
+</footer>
+</body>
+</html>

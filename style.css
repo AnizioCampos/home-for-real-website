@@ -1,0 +1,251 @@
+nav ul {
+    list-style:none;
+}
+
+nav li {
+    display: inline;
+    font-size: 25px;
+}
+
+.main-header {
+    background-color: #EA8269;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Kiona';
+}
+
+li a {
+    color: white;
+    /* Padding  */
+    padding: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.header-logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -45%;
+    top: 70px;
+}
+
+.house-image1 {
+    width: 200px;
+    position: absolute;
+    top: 1215px;
+    left: 50px;
+    
+}
+
+.house-image2 {
+    width: 400px;
+    position: relative;
+    top: 950px;
+    left: 100px;
+}
+
+h1 {
+    color: #EB6E49;
+    text-align: center;
+    font-family: 'Kiona', 'Times';
+}
+
+h2 {
+    text-align: center;
+    font-family: "Kiona";
+    color: #EB6E49;
+}
+
+h3 {
+    text-align: center;
+    color: #EB6E49;
+    font-size: 30px;
+    font-family: "Kiona";
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+p{
+    margin: 0 300px;
+    padding: 60px 0;
+    font-family: 'GlacialIndifference', 'Times';
+
+
+}
+
+.footer {
+    background-color: #EA8269;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100% ;
+    text-align: center;
+    padding-bottom: 10px;
+    justify-content: center; 
+    align-items: center;     
+    height: 40px;           
+}
+
+@font-face {
+    font-family: 'Kiona';
+    src: url("fonts/Kiona-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GlacialIndifference';
+    src: url("fonts/GlacialIndifference-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    top: 400px;
+    background-repeat: no-repeat;
+    height: 1400px;
+}
+
+.column1 {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    height: 1000px;
+}
+
+.column2 {
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    height: 1000px;
+}
+
+
+
+.text-image2 {
+    width: 300px;
+    left: -10px;
+    height: 300px;
+    top: 1150px;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+.text-image3 {
+    width: 500px;
+    top: 910px;
+    position: relative;
+    right: 200px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+.under-header-title {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+}
+
+.insta-logo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10;
+}
+
+.toronto-house3 {
+    width: 100%;
+    
+    position: relative;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    font-family: 'GlacialIndifference';
+    color: #EA8269;
+    font-size: 20px;
+}
+
+.button-form {
+    color: #EA8269;
+    background-color:rgb(239, 239, 109);
+    border: beige;
+
+
+    
+}
+
+.form-field {
+    color: #EA8269;
+}
+
+.house-image-services1 {
+    width: 400px;
+    position: relative;
+    left: 34%;
+
+}
+
+.house-image-services2 {
+    width: 400px;
+    position: relative;
+    left: 34%;
+}
+
+.conainer-services {
+    height: 700px;
+}
+
+.newsletter {
+    background-color: #ff5a5f; /* This sets the background color */
+    padding: 20px; /* This adds some padding inside the div */
+    text-align: center; /* This centers the content */
+    width: 300px; /* This sets a specific width */
+    border-radius: 10px; /* This rounds the corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* This adds a shadow for depth */
+    margin: auto; /* This centers the div in its container */
+    position: relative;
+    top: -100px;
+  }
+  
+  .newsletter input[type=email] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px; /* Slightly round the corners of the input field */
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Slightly round the corners of the button */
+    background-color: #fff;
+    color: #ff5a5f; /* Color of the subscribe text */
+    cursor: pointer; /* Changes the mouse cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+  }
+  
+  .newsletter button:hover {
+    background-color: #f2f2f2; /* Lighter grey background on hover */
+  }
+  
